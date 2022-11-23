@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16 mb-7">Lets get some <span
+                class="font-semibold  text-orange-600 ">Mooooooneeey!!!</span></h1>
+    </header>
+    <main class="w-3/4 mx-auto">
+        <section class="mt-12 ">
+            <div class="mx-6 grid grid-cols-3 gap-4">
+                <div class="rounded-md bg-lime-200 p-16   ">
+                    <h3 class="text-5xl">Deposit</h3>
+                    <h4 class="text-4xl">$<span id="deposit-added">00</span></h4>
+                </div>
+                <div class="rounded-md bg-blue-200 p-16  ">
+                    <h3 class="text-5xl">Withdraw</h3>
+                    <h4 class="text-4xl">$<span id="withdrawAmount">00</span></h4>
+                </div>
+                <div class="rounded-md bg-yellow-200 p-16 ">
+                    <h3 class="text-5xl">Balance</h3>
+                    <h4 class="text-4xl">$<span id="balanceAdded">1500 </span></h4>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="mt-10">
+            <div class="mx-6 grid grid-cols-2 gap-4">
+                <div class="rounded-md bg-purple-200 p-16">
+                    <h3 class="text-4xl">Deposit amount</h3>
+                    <input id="deposit-input" class="rounded-sm mt-3 mb-2 block " type="text" name=""
+                        placeholder="Deposit amount">
+                    <button id="deposit-button" class="bg-neutral-400 font-medium px-4 rounded ">Deposit</button>
+
+
+                </div>
+                <div class="rounded-md bg-green-200 p-16">
+                    <h3 class="text-4xl">Withdraw amount</h3>
+                    <input id="withdraw-input" class="rounded-sm mt-3 mb-2 block " type="text" name=""
+                        placeholder="Withdraw amount">
+                    <button id="withdraw-button" class="bg-neutral-400 font-medium px-4 rounded ">Withdraw</button>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="banking.js"></script>
+
+</body>
+
+</html>
