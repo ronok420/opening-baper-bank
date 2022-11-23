@@ -7,7 +7,7 @@ document.getElementById('login-button').addEventListener('click', function () {
     const userPass = passlField.value;
 
     if (userEmail == 'shahariar@gmail.com' && userPass == 'hello') {
-        window.location.href = "https://drive.google.com/file/d/1ixsoDb8mCuIZWCHQyOb7jc735BDDsiHe/view"; //file:///J:/project/baper-bank/bank_homepage.html
+        window.location.href = "file:///J:/project/baper-bank/bank_homepage.html";
 
     }
     else {
